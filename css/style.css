@@ -1,0 +1,43 @@
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 3px inset #748E70;
+}
+.text-muted {
+	color: #BCBBBB
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.hoverable:hover {
+	cursor: pointer;
+	outline: 1px dashed red;
+}
+
+.my_image350 {
+	max-height: 350px;
+	width: 100%;
+}
+
+.my_image555_300 {
+	max-height: 300px;
+	width: 100%;
+}
