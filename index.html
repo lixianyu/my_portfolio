@@ -5,13 +5,14 @@
     <title>
       Hello me.
     </title>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8">
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <div class="container">
@@ -32,7 +33,7 @@
         <hr class="myhr">
       </div>
     </div>
-    
+
     <div class="row">
         <div class="col-md-12">
             <!-- <img src="./bootstrap-prestructure_files/1140x350" class="img-responsive img-rounded" alt="hehe"> -->
@@ -46,49 +47,99 @@
       </div>
     </div>
 
-
     <div class="row text-center">
       <div class="col-md-6">
-        <img src="https://farm6.staticflickr.com/5269/5578893436_bcddd9e630.jpg" class="img-responsive hoverable my_image555_300" data-toggle="modal" data-target="#project1">
-        <h3>Project 1</h3>
-        <p><a href="http://github.com/">Link to project 1</a></p>
+        <!-- <img src="https://farm6.staticflickr.com/5269/5578893436_bcddd9e630.jpg" class="img-responsive hoverable my_image555_300" data-toggle="modal" data-target="#project1"> -->
+        <img src="img/tujiu.png" class="img-responsive hoverable my_image555_300" data-toggle="modal" data-target="#project1">
+        <a href="https://github.com/lixianyu/VultureEgg141" target="_blank"><h3>拯救秃鹫蛋</h3></a>
+        <!-- <p><a href="https://github.com/lixianyu/VultureEgg141">Link to project 1</a></p> -->
       </div>
 
       <div class="col-md-6">
-        <img src="img/15760065549_2d4db0884f_o.jpg" class="img-responsive hoverable my_image555_300"/>
-        <h3>Project 2</h3>
-        <p><a href="http://github.com/">Link to project 2</a></p>
+        <img src="img/bike_share.png" class="img-responsive hoverable my_image555_300" data-toggle="modal" data-target="#project2">
+        <a href="https://github.com/lixianyu/bike-share-analysis" target="_blank"><h3>探索美国共享单车数据</h3></a>
+        <!-- <p><a href="https://github.com/lixianyu/bike-share-analysis">Link to project 2</a></p> -->
       </div>
     </div>
 
     <hr class="myhr">
-    
+
     <div class="row text-center">
       <div class="col-md-6">
-        <img src="img/5339585561_a4df5b6644_z.jpg" class="img-responsive hoverable my_image555_300">
-        <h3>Project 3</h3>
-        <p><a href="http://github.com/">Link to project 3</a></p>
+        <img src="img/xiao_shen_ke.png" class="img-responsive hoverable my_image555_300" data-toggle="modal" data-target="#project3">
+        <a href="https://github.com/lixianyu/best_movie_douban" target="_blank"><h3>豆瓣上最好的电影</h3></a>
+        <!-- <p><a href="https://github.com/lixianyu/best_movie_douban">Link to project 3</a></p> -->
+        <p>恐惧让你沦为囚犯，希望让你重获自由。——《肖申克的救赎》</p>
       </div>
       <div class="col-md-6">
-        <img src="img/17918566296_2c60e3d2cb_z.jpg" class="img-responsive hoverable my_image555_300">
-        <h3>Project 4</h3>
-        <p><a href="http://github.com/">Link to project 4</a></p>
+        <img src="img/ping_pong.png" class="img-responsive hoverable my_image555_300" data-toggle="modal" data-target="#project4">
+        <a href="https://github.com/lixianyu/rheapingpong" target="_blank"><h3>Ping Pong</h3></a>
+        <!-- <p><a href="https://github.com/lixianyu/rheapingpong">Link to project 4</a></p> -->
       </div>
     </div>
   </div>
 
   <hr>
-  
+
     <!-- Modal -->
   <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
           <div class="modal-content">
               <div class="modal-header">
-                  <h4 class="modal-title" id="myModalLabel">Project 1</h4>
+                  <h4 class="modal-title" id="myModalLabel">拯救秃鹫蛋</h4>
               </div>
               <div class="modal-body">
-                  <img class="img-responsive" src="img/555x300">
-                  This was my first project in this class. I learned a lot about HTML and CSS.
+                  <img class="img-responsive my_image555_300" src="img/tujiu.png">
+                  <p>源起： <a href="http://forum.arduino.cc/index.php?topic=247534.msg1768981#msg1768981" target="_blank">http://forum.arduino.cc/index.php?topic=247534.msg1768981#msg1768981</a></p>
+                  <p>通过Microduino微型智能硬件，监测秃鹫蛋的孵化过程，从而掌握人工孵化秃鹫蛋的技术。</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">探索美国共享单车数据</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive my_image555_300" src="img/bike_share.png">
+                  <p>利用Python探索美国三大共享单车系统的相关数据，从而找到用户的骑行模式</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">豆瓣上最好的电影</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive my_image555_300" src="img/xiao_shen_ke.png">
+                  <p>通过“Beautiful Soup”这个强大的Python工具库，实现对豆瓣网站上的电影的自动分类抓取。</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Ping Pong</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive my_image555_300" src="img/ping_pong.png">
+                  <p>在ESP32系统上，用SX1278实现PingPong的应用</p>
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
